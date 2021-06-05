@@ -7,8 +7,16 @@
 ## 2.初始化本地仓库
 
 - 新建空白文件夹，例mz_work
+
 - 打开git bash，进入到mz_work： `cd /path_to/mz_work`
+
 - 执行 `git init`
+
+- 设置自己的账户名、邮箱:
+
+  `git config --global user.name "your_name"`
+
+  `git config --global user.email "your_email"`
 
 ## 3.添加github远程仓库
 
@@ -18,15 +26,14 @@
   git remote add origin https://github.com/YuanXinCherry/Comprehensive_reID_Baseline
   ```
 
-  
 
 ## 4.强制将远端仓库内容更新到本地
 
 - 执行 :
 
-  ​	`git fetch --all`
+  `git fetch --all`
 
-  ​    `git reset --hard origin/master `
+  `git reset --hard origin/master `
 
 ## 5.本地修改内容上传远程仓库
 
@@ -36,9 +43,9 @@
 
 - 将更改提交到本地缓冲区：
 
-  ​	`git add some.txt`
+  `git add some.txt`
 
-    `git commit some.txt -m "提交信息"`
+  `git commit some.txt -m "提交信息"`
 
 - 将本地缓冲区内容上传到服务器远端仓库，执行 `git push origin master`
 
