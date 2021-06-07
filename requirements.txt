@@ -80,7 +80,7 @@ python-dotenv==0.17.0
 python3-openid==3.2.0
 pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1604321279890/work
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==5.4
 qt5-applications==5.15.2.2.1
 qt5-tools==5.15.2.1.0.1
 quadprog==0.1.8
