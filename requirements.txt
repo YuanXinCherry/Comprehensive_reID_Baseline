@@ -87,7 +87,7 @@ quadprog==0.1.8
 repoze.sendmail==4.4.1
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 requests-oauthlib==1.3.0
-rsa==4.6
+rsa==4.7
 ruamel-yaml==0.15.87
 scikit-image==0.18.1
 scikit-learn==0.23.2
