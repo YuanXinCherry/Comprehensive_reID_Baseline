@@ -8,7 +8,7 @@ This dataset contains two cameras, each of which captures one image per person. 
 
 Download: [[baidu](https://pan.baidu.com/s/1XgdC0MuX1QNtQI81hdb3Xg)] (code: e80b)
 
-![VIPeR](img/VIPeR-2008.png)
+![VIPeR](imgs/VIPeR-2007.png)
 
 >D. Gray and Tao, H., [“Viewpoint Invariant Pedestrian Recognition with an Ensemble of Localized Features”](https://link.springer.com/content/pdf/10.1007/978-3-540-88682-2_21.pdf), in ECCV '08: Proceedings of the 10th European Conference on Computer Vision, Berlin, Heidelberg, 2008, pp. 262–275.
 >
