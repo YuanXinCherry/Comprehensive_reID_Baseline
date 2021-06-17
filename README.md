@@ -15,8 +15,11 @@ CVPR 2021【行人/车辆重识别】相关论文和代码：[[知乎](https://z
 
 ---
 更新：袁鑫
+
 category: deep_learning
+
 title: Re-ID
+
 date: 2021-06-17
 ---
 
