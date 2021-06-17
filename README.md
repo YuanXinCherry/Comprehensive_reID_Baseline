@@ -7,3 +7,5 @@ This is a repository for organizing codes related to re-identification (especial
 
 论文排版Latex软件安装教程：[[知乎](https://zhuanlan.zhihu.com/p/338929182)]
 
+CVPR 2021【行人/车辆重识别】相关论文和代码：[[知乎](https://zhuanlan.zhihu.com/p/376350735)]
+
