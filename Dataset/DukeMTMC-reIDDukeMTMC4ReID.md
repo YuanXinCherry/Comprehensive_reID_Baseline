@@ -10,6 +10,50 @@ The DukeMTMC dataset is a large-scale heavily labeled multi-target multi-camera 
 
 另外，DukeMTMC-reID还提供了23种属性数据标注 DukeMTMC-attribute供下载。 https://github.com/vana77/DukeMTMC-attribute
 
+## 目录结构
+
+DukeMTMC-reID
+　　├── bounding_box_test
+　　　　　　　├── 0002_c1_f0044158.jpg
+　　　　　　　├── 3761_c6_f0183709.jpg
+　　　　　　　├── 7139_c2_f0160815.jpg
+　　├── bounding_box_train
+　　　　　　　├── 0001_c2_f0046182.jpg
+　　　　　　　├── 0008_c3_f0026318.jpg
+　　　　　　　├── 7140_c4_f0175988.jpg
+　　├── query
+　　　　　　　├── 0005_c2_f0046985.jpg
+　　　　　　　├── 0023_c4_f0031504.jpg
+　　　　　　　├── 7139_c2_f0160575.jpg
+　　└── CITATION_DukeMTMC.txt
+　　└── CITATION_DukeMTMC-reID.txt
+　　└── LICENSE_DukeMTMC.txt
+　　└── LICENSE_DukeMTMC-reID.txt
+　　└── README.md
+
+## 目录介绍
+
+从视频中每 120 帧采样一张图像，得到了 36,411 张图像。一共有 1,404 个人出现在大于两个摄像头下，有 408 个人 (distractor ID) 只出现在一个摄像头下。
+
+1） “bounding_box_test”——用于测试集的 702 人，包含 17,661 张图像（随机采样，702 ID + 408 distractor ID）
+
+2） “bounding_box_train”——用于训练集的 702 人，包含 16,522 张图像（随机采样）
+
+3） “query”——为测试集中的 702 人在每个摄像头中随机选择一张图像作为 query，共有 2,228 张图像
+
+## 命名规则
+
+以 0001_c2_f0046182.jpg 为例
+
+1） 0001 表示每个人的标签编号；
+
+2） c2 表示来自第二个摄像头(camera2)，共有 8 个摄像头；
+
+3） f0046182 表示来自第二个摄像头的第 46182 帧。
+
+## 数据分布
+
+DukeMTMC-reID训练集的图像分布。我们注意到每个ID的图像中值为20。但有些ID可能包含大量图像，这可能会影响某些算法。(例如，ID 5388包含426个图像。)
 
 
 #### DukeMTMC-reID
